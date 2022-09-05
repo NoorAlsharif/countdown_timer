@@ -1,5 +1,46 @@
-p {
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', monospace;
+
     text-align: center;
-    font-size: 60px;
-    margin-top: 0px;
-  }
+    font-size: 20px;
+
+    background-image: url('im-working-garfield.gif');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: contain; */
+    background-position: bottom right;
+
+    background-color: #f4f2c2;
+}
+
+#box{
+    position: absolute;
+
+    /* margin: auto; */
+    margin-left: 8%;
+    margin-top: 10%;
+
+    padding: 30px;
+    width: 80%;
+    background-color:lightblue;
+
+    box-shadow: 15px 20px 1px rgb(0 0 0);
+}
+
+h1 {
+    color: black;
+}
+
+#demo {
+    font-size: 50px;
+    margin-top: 20px;
+    color: red;
+}
+
