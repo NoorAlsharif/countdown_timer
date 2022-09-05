@@ -29,9 +29,9 @@ body{
 
     padding: 30px;
     width: 80%;
-    background-color:lightblue;
+    background-color: lightblue;
 
-    box-shadow: 15px 20px 1px rgb(0 0 0);
+    box-shadow: 15px 20px 1px #fcf58c;
 }
 
 h1 {
@@ -41,6 +41,7 @@ h1 {
 #demo {
     font-size: 50px;
     margin-top: 20px;
-    color: red;
+    font-weight: bold;
+    color: #ec5135;
 }
 
